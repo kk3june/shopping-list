@@ -13,8 +13,8 @@ function onAdd() {
     }
 
     const item = createItem(text);
-
     items.appendChild(item);
+    item.scrollIntoView({block : 'center'});
 }
 
 function createItem(text) {
